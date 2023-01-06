@@ -1,6 +1,9 @@
-# the program below generate a cover letter for the job you are applying to.
+# The program below generate a cover letter for the job you are applying to.
 # Fill up the api key, your personal info for the heading and the dic for the content.
-# select the experience you want to show in the cover letter in the select, just mark the number representing the experience you want to show.
+# Select the experience you want to show in the cover letter in the select, just mark the number representing the experience you want to show.
+
+# Packages needed: docx, openai, docx2pdf
+
 from docx import Document
 
 from docx.shared import RGBColor
